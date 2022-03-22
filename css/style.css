@@ -4,6 +4,7 @@ html{
     scroll-behavior: smooth;
     background:#000 url(../asset/gotam.jpg)no-repeat fixed center center / cover;
 }
+
 body{
     font: 1.6rem 'Poppins', sans-serif;
     margin: 0;
@@ -11,11 +12,11 @@ body{
 h1,h2,h3,h4,h5,h6,p,ul{
     padding: 0;
     margin: 0;
-    list-style: none;
-    
+    list-style: none;   
 }
 h1,h2,h3,h4,h5,h6{
     font-weight: 200;
+    text-decoration: none;
 }
 img{
     display: inline-block;
@@ -27,3 +28,57 @@ img{
 *{
     box-sizing: border-box;
 }
+header, nav, footer, main{
+    margin: 0 auto;
+    max-width: 80%;
+    background-color: rgba(255,255,255,.8);
+    padding: 0 20px;
+    min-height: 50px;
+
+    
+}
+header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem;
+            margin-bottom: 3rem;
+    
+            
+}
+section{
+    border: solid 2px black;
+    padding: 20px 20px;
+}
+p{
+    color: #667;
+    line-height: 2em;
+    margin: 10px auto 0;
+}
+.active {
+    background-color: rgb(56, 56, 55);
+
+}
+li {
+    display: inline;
+    margin: 0 5px;
+}
+header ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.logo{
+    max-width: 8rem;
+    display:inline-block; 
+    justify-content: baseline;   
+    position: absolute;
+    top: 1px;
+left: 11%;
+}
+h1{
+    margin-left: 10rem;
+}
+
