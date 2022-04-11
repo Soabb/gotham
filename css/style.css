@@ -2,7 +2,7 @@
 html{
     font-size: 62.5%; /* 16px  * 62.5% = 1.000 */
     scroll-behavior: smooth;
-    background:#000 url(../asset/gotam.jpg)no-repeat fixed center center / cover;
+    background:#000 url(../asset/gotam.jpg) no-repeat fixed center center / cover;
 }
 
 body{

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\oui"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "gotam"
+	}
+}
